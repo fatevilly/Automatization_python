@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from configuration import *
 
-chrome_browser = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+#chrome_browser = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
 def test_calculator_form(chrome_browser):
     chrome_browser.get(URL_2)
